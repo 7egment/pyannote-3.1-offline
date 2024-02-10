@@ -4,10 +4,10 @@ pipeline:
   name: pyannote.audio.pipelines.SpeakerDiarization
   params:
     clustering: AgglomerativeClustering
-    embedding: vox.bin
+    embedding: /home/e6quisitory/pyannote-3.1-offline/vox.bin
     embedding_batch_size: 32
     embedding_exclude_overlap: true
-    segmentation: seg.bin
+    segmentation: /home/e6quisitory/pyannote-3.1-offline/seg.bin
     segmentation_batch_size: 32
 
 params:
